@@ -8,6 +8,8 @@ class Cicd02BootApplicationTests {
 
     @Test
     void contextLoads() {
+        //무조건 실패 처리
+        throw new RuntimeException("Fail");
     }
 
 }

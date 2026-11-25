@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/")
     public String index(){
-        return "GitHub Actions를 이용한 first CI/CD TEST - 11월 25일 입니다 - 깃 applicaton.properties 수정";
+        return "GitHub Actions를 이용한 first CI/CD TEST - 오류 발생, 테스트 실패!";
     }
 }
